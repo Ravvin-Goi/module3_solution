@@ -1,0 +1,47 @@
+
+body {
+    min-height: 1000px;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+
+#header-nav {
+    border: 1px solid black;
+    min-height: 10vh;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.nav-link {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+main {
+    margin-top: 5vh;
+}
+
+.container {
+    max-width: 100%;
+    margin-top: 5vh;
+}
+
+#chiken, #beef, #sushi {
+    background-color: #f8f9fa;
+    margin: .1rem .1rem;
+    padding: 2vh .5rem;
+}
+
+footer {
+    background-color: #f8f9fa;
+    margin-top: 5vh;
+    min-height: 10vh;
+    padding: 3vh 0;
+}
+
